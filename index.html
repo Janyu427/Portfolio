@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janyu</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Janyu">
+    <style>
+        body {
+          visibility: hidden;
+          opacity: 0;
+        }
+    </style>
+</head>
+
+<body class="body_content">
+    
+    <header id="topH">
+        <div class="nav">
+            <div class="container">
+                <a class="logo_box" href="/" title="Janyu" target="_self">
+                    <img class="image" src="image/logo.svg" alt="Janyu" width="104" height="54">
+                </a>    
+                <div class="nav_box">
+                    <ul class="nav_list">
+                        <li class="list">
+                            <a class="link" href="./" title="設計案例" target="_self">設計案例</a>
+                        </li>
+                        <li class="list">
+                            <a class="link" href="./about.html" title="關於我" target="_self">關於我</a>
+                        </li>
+                        <li class="list">
+                            <a class="link" href="./image/myResume.pdf" title="履歷" target="_blank">履歷</a>
+                        </li>
+                    </ul>
+                    <div class="mode_switch">
+                        <img class="icon" src="./image/sun.svg" width="16" height="16">
+                        <button class="mode_btn" id="modeBtn"></button>
+                        <!-- <input id="dark-mode" type="checkbox" /> -->
+                    </div>
+                    <div class="burger">
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </div>
+                </div>
+                
+                <div class="mobile_nav">
+                    <div class="inner_box container">
+                        <a class="logo_box" href="/" title="Janyu" target="_self">
+                            <img class="image" src="image/logo.svg" alt="Janyu" width="104" height="54">
+                        </a> 
+                        <ul class="mobile_nav_list">
+                            <li class="mobile_list">
+                                <a class="link" href="./" title="設計案例" target="_self">設計案例</a>
+                            </li>
+                            <li class="mobile_list">
+                                <a class="link" href="./about.html" title="關於我" target="_self">關於我</a>
+                            </li>
+                            <li class="mobile_list">
+                                <a class="link" href="./image/myResume.pdf" title="履歷" target="_blank">履歷</a>
+                            </li>
+                        </ul>
+                        <div class="social_media">
+                            <a class="link" target="_blank" href="https://www.instagram.com/jan__yu" title="Instagram">
+                                <img class="image lazy" data-src="./image/instagram.svg" width="24" height="24">
+                            </a>
+                            <a class="link" target="_blank" href="mailto:janyu427130@gmail.com" title="Email">
+                                <img class="image lazy" data-src="./image/mail.svg" width="24" height="24">
+                            </a>
+                            <a class="link" target="_blank" href="https://www.linkedin.com/in/chen-yu-wu-design" title="Linkedin">
+                                <img class="image lazy" data-src="./image/linkedin.svg" width="24" height="24">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main class="index">
+        <div class="banner section" id="banner">
+            <div class="container">
+                <div class="text_box">
+                    <div class="title_box">
+                        <h1 class="title">Janyu</h1>
+                        <p class="subtitle">UI UX Designer</p>
+                    </div>
+                    <div class="slogan_box">
+                        <span class="text">我喜歡製作</span>
+                        <div class="swiper-container carousel_box">
+                            <div class="swiper-wrapper">
+                                <h4 class="swiper-slide">能夠解決問題</h4>
+                                <h4 class="swiper-slide">能夠帶來便利</h4>
+                            </div>
+                        </div>
+                        <span class="text">的設計</span>
+                    </div>
+                    <div class="scroll_down_box">
+                        <a class="link" href="#case">
+                            <p class="text">Scroll Down</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="image_box">
+                    <img class="image" src="./image/banner.jpg" srcset="./image/banner.jpg 1x, ./image/banner2x.jpg 2x" width="780" height="530">
+                </div>
+            </div>
+        </div>
+        <div id="case" class="design_case section">
+            <div class="container">
+                <p class="title">設計案例</p>
+                <div class="case_box">
+                    <div class="item">
+                        <div class="text_box">
+                            <div class="inner_box">
+                                <p class="year">2021</p>
+                                <h2 class="case_title">日陽起重工程官網</h2>
+                                <h3 class="intro">展現安全、效率、專業</h3>
+                                <a class="btn" href="./sunrise.html">
+                                    了解更多
+                                </a>
+                            </div>
+                        </div>
+                        <div class="image_box"></div>
+                    </div>
+                    <div class="item">
+                        <div class="text_box">
+                            <div class="inner_box">
+                                <p class="year">2022</p>
+                                <h2 class="case_title">LINE 推播訊息結合抽獎模組</h2>
+                                <h3 class="intro">綿延不絕的訊息傳遞 </h3>
+                                <a class="btn" href="./lineApi.html">
+                                    了解更多
+                                </a>
+                            </div>
+                        </div>
+                        <div class="image_box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index_contact">
+            <div class="container">
+                <div class="text_box">
+                    <h2 class="title">歡迎與我聯繫</h2>
+                    <p class="text">無論是在設計或是生活，每一次的討論及分享總是讓我感到快樂，彼此給予的反饋也能夠創造出不一樣的思維。如果有任何問題及想法，歡迎與我聯繫 ！期待與你的每一次交流。 </p>
+                    <a class="btn" href="mailto:janyu427130@gmail.com" target="_blank">
+                        與我聯繫
+                    </a>
+                </div>
+                <div class="image_box">
+                    <img class="image lazy" data-src="./image/index_contact.svg" width="480" height="404">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="copyright">© Janyu <span id="thisYear"></span> All Rights Reserved</p>
+            <div class="social_media">
+                <a class="link" target="_blank" href="https://www.instagram.com/jan__yu" title="Instagram">
+                    <img class="image lazy" data-src="./image/instagram.svg" width="24" height="24">
+                </a>
+                <a class="link" target="_blank" href="mailto:janyu427130@gmail.com" title="Email">
+                    <img class="image lazy" data-src="./image/mail.svg" width="24" height="24">
+                </a>
+                <a class="link" target="_blank" href="https://www.linkedin.com/in/chen-yu-wu-design" title="Linkedin">
+                    <img class="image lazy" data-src="./image/linkedin.svg" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="side_icon">
+        <span class="gotop"></span>
+    </div>
+</body>
+
+<script src="./js/main.min.js"></script>
+</html>
